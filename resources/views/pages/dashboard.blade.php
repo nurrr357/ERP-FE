@@ -9,10 +9,10 @@
     </div>
 @endsection
 
-@section('custom-script')
+<!-- @section('custom-script')
     <script>
         $(document).ready(function() {
             console.log("Document is ready!");
         });
     </script>
-    @endsection
+@endsection -->
