@@ -47,19 +47,19 @@
             <div class="step" data-step="1">
                 <div class="mb-3 mt-3">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Name Departement</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
+                    <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
                 </div>
                 <div class="mb-3 mt-3">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Division Departement</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
+                    <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
                 </div>
                 <div class="mb-3 mt-3">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Manager</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
+                    <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
                 </div>
                 <div class="mb-3 mt-3">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Company</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
+                    <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
                 </div>
             </div>
 
@@ -67,15 +67,15 @@
             <div class="step hidden" data-step="2">
                 <div class="mb-3 mt-3">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Name</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
+                    <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
                 </div>
                 <div class="mb-3 mt-3">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Company</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
+                    <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
                 </div>
                 <div class="mb-3 mt-3">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Job Description</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
+                    <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
                 </div>
             </div>
 
@@ -83,31 +83,31 @@
             <div class="step hidden" data-step="3">
                 <div class="mb-3">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Name</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
+                    <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
                 </div>
                 <div class="mb-3 mt-3">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Work Mobile</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
+                    <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
                 </div>
                 <div class="mb-3 mt-3">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Work Email</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
+                    <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
                 </div>
                 <div class="mb-3 mt-3">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Company</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
+                    <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
                 </div>
                 <div class="mb-3 mt-3">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Department</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
+                    <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
                 </div>
                 <div class="mb-3 mt-3">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Job Position</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
+                    <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
                 </div>
                 <div class="mb-3 mt-3">
                     <label class="block text-gray-700 text-sm font-bold mb-2">Manager</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
+                    <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Customer">
                 </div>
             </div>
 

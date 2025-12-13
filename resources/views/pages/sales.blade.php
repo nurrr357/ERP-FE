@@ -49,31 +49,31 @@
                             <label class="block text-gray-700 text-sm font-bold mb-2" for="category-name">
                                 Nama
                             </label>
-                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Placeholder">
+                            <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Placeholder">
                         </div>
                         <div class="mb-4 mt-2">
                             <label class="block text-gray-700 text-sm font-bold mb-2" for="category-name">
                                 Nama
                             </label>
-                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Placeholder">
+                            <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Placeholder">
                         </div>
                          <div class="mb-4 mt-2">
                             <label class="block text-gray-700 text-sm font-bold mb-2" for="category-name">
                                 Expiration
                             </label>
-                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Placeholder">
+                            <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Placeholder">
                         </div>
                          <div class="mb-4 mt-2">
                             <label class="block text-gray-700 text-sm font-bold mb-2" for="category-name">
                                 Pricelist
                             </label>
-                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Placeholder">
+                            <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Placeholder">
                         </div>
                          <div class="mb-4 mt-2">
                             <label class="block text-gray-700 text-sm font-bold mb-2" for="category-name">
                                 Payment Terms
                             </label>
-                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Placeholder">
+                            <input class="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Placeholder">
                         </div>
 
                         <div class="max-w-4xl mx-auto border border-dashed border-gray-400 p-6 bg-gray-100 ">
