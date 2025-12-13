@@ -9,3 +9,11 @@ Route::get('/', function () {
 Route::get('/category', function () {
     return view('pages.category');
 });
+
+Route::get('/employe', function () {
+    return view('pages.employe');
+});
+
+Route::get('/sales', function () {
+    return view('pages.sales');
+});
