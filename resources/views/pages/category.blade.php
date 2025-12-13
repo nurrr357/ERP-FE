@@ -13,7 +13,7 @@
         <div class="flex items-center justify-between p-4 border-b border-gray-200 hover:bg-gray-50 transition">
             <div class="flex items-center gap-4">
                 <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
-                    
+
                 </div>
                 <div>
                     <h4 class="font-semibold text-gray-800">Electronics</h4>
@@ -29,7 +29,7 @@
     <div id="add-category-modal" class="fixed inset-0 z-50 items-center justify-center hidden">
         <!-- Overlay -->
         <div class="absolute inset-0 bg-[rgba(0,0,0,0.5)]" id="modal-overlay"></div>
-        
+
         <!-- Modal Content -->
         <div class="bg-white rounded-lg shadow-xl w-full max-w-2xl z-10" id="modal-content">
             <div class="flex justify-between items-center p-4">
@@ -38,7 +38,7 @@
                    &times;
                 </button>
             </div>
-            
+
             <div class="p-6 pt-0">
                 <div class="border-2 border-dashed border-gray-400 rounded-lg p-6 relative">
                     <!-- Form Placeholder -->
@@ -47,7 +47,7 @@
                             <label class="block text-gray-700 text-sm font-bold mb-2" for="category-name">
                                 Nama
                             </label>
-                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category-name" type="text" placeholder="Placeholder">
+                            <input class="shadow-sm appearance-none border border-gray-300 rounded w-full py-2.5 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-100 focus:border-blue-400 bg-white" id="category-name" type="text" placeholder="Placeholder">
                         </div>
                     </form>
 
@@ -64,7 +64,7 @@
     <div id="detail-category-modal" class="fixed inset-0 z-50 items-center justify-center hidden">
         <!-- Overlay -->
         <div class="absolute inset-0 bg-[rgba(0,0,0,0.5)] detail-modal-overlay"></div>
-        
+
         <!-- Modal Content -->
         <div class="bg-white rounded-lg shadow-xl w-full max-w-2xl z-10 overflow-hidden transform transition-all p-6">
             <!-- Header & Tabs Wrapper -->
@@ -86,7 +86,7 @@
                     </button>
                 </div>
             </div>
-            
+
             <!-- Content -->
             <div>
                 <!-- Data Tab Content -->
@@ -114,7 +114,7 @@
                         <div class="flex flex-col items-center justify-center p-4 text-center text-gray-800">
                             <h3 class="text-lg font-bold mb-2 text-gray-800">Hapus Kategori?</h3>
                             <p class="text-gray-500 mb-6 text-sm">Tindakan ini tidak dapat dibatalkan.</p>
-                            
+
                             <div class="flex gap-3">
                                 <button class="px-5 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300 transition font-medium text-sm detail-modal-close">Batal</button>
                                 <button class="px-5 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition font-medium text-sm">Hapus</button>
@@ -151,7 +151,7 @@
 
             // Detail Modal Logic
             const detailModal = $('#detail-category-modal');
-            
+
             function openDetailModal() {
                 detailModal.removeClass('hidden').addClass('flex');
             }
@@ -176,13 +176,13 @@
             function switchTab(tabName) {
                 // Remove active class from all tabs
                 $('.tab-btn').removeClass('text-blue-600 border-blue-600 active-tab').addClass('text-gray-500 border-transparent');
-                
+
                 // Add active class to clicked tab
                 $(`.tab-btn[data-tab="${tabName}"]`).removeClass('text-gray-500 border-transparent').addClass('text-blue-600 border-blue-600 active-tab');
-                
+
                 // Hide all tab contents
                 $('.tab-content').addClass('hidden').removeClass('block');
-                
+
                 // Show target content
                 $(`#tab-${tabName}`).removeClass('hidden').addClass('block');
             }
