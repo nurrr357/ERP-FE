@@ -9,6 +9,14 @@ Route::get('/', function () {
 Route::get('/category', function () {
     return view('pages.category');
 });
+
+Route::get('/employe', function () {
+    return view('pages.employe');
+});
+
+Route::get('/sales', function () {
+    return view('pages.sales');
+});
 Route::get('/product', function () {
     return view('pages.product');
 });
@@ -21,3 +29,5 @@ Route::get('/purchase', function () {
 Route::get('/manufacturing-order', function () {
     return view('pages.manufacturing');
 });
+
+
