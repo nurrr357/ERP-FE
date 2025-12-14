@@ -29,3 +29,5 @@ Route::get('/purchase', function () {
 Route::get('/manufacturing-order', function () {
     return view('pages.manufacturing');
 });
+
+
