@@ -30,6 +30,26 @@
                     {{ request()->is('product') ? 'bg-gray-300' : 'hover:bg-gray-300' }}">
                     Product
                 </a>
+                <a href="/components"
+                    class="block px-4 py-2 rounded-lg transition text-gray-800 font-medium
+                    {{ request()->is('components') ? 'bg-gray-300' : 'hover:bg-gray-300' }}">
+                    Components
+                </a>
+                <a href="/companies"
+                    class="block px-4 py-2 rounded-lg transition text-gray-800 font-medium
+                    {{ request()->is('companies') ? 'bg-gray-300' : 'hover:bg-gray-300' }}">
+                    Companies
+                </a>
+                <a href="/vendors"
+                    class="block px-4 py-2 rounded-lg transition text-gray-800 font-medium
+                    {{ request()->is('vendors') ? 'bg-gray-300' : 'hover:bg-gray-300' }}">
+                    Vendors
+                </a>
+                <a href="/rfq"
+                    class="block px-4 py-2 rounded-lg transition text-gray-800 font-medium
+                    {{ request()->is('rfq') ? 'bg-gray-300' : 'hover:bg-gray-300' }}">
+                    RFQ
+                </a>
                 <a href="/bom"
                     class="block px-4 py-2 rounded-lg transition text-gray-800 font-medium
                     {{ request()->is('bom') ? 'bg-gray-300' : 'hover:bg-gray-300' }}">

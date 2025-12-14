@@ -21,3 +21,19 @@ Route::get('/purchase', function () {
 Route::get('/manufacturing-order', function () {
     return view('pages.manufacturing');
 });
+
+Route::get('/components', function () {
+    return view('pages.components');
+});
+
+Route::get('/companies', function () {
+    return view('pages.companies');
+});
+
+Route::get('/vendors', function () {
+    return view('pages.vendors');
+});
+
+Route::get('/rfq', function () {
+    return view('pages.rfq');
+});
