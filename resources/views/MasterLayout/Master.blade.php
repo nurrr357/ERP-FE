@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <title>@yield('title')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <style>
+        .input {
+            @apply w-full border rounded px-3 py-2 bg-gray-50 text-sm focus:outline-none focus:ring;
+        }
+    </style>
 </head>
 
 <body class="bg-[#E8F2FF] flex min-h-screen">
@@ -69,6 +74,11 @@
                     class="block px-4 py-2 rounded-lg transition text-gray-800 font-medium
                     {{ request()->is('sales') ? 'bg-gray-300' : 'hover:bg-gray-300' }}">
                     Sales
+                </a>
+                <a href="/employe"
+                    class="block px-4 py-2 rounded-lg transition text-gray-800 font-medium
+                    {{ request()->is('employe') ? 'bg-gray-300' : 'hover:bg-gray-300' }}">
+                    Employee
                 </a>
             </div>
             <!-- <div class="flex flex-col">
