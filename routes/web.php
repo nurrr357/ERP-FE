@@ -17,6 +17,9 @@ Route::get('/employe', function () {
 Route::get('/sales', function () {
     return view('pages.sales');
 });
+Route::get('/quotation', function () {
+    return view('pages.quotation');
+});
 Route::get('/product', function () {
     return view('pages.product');
 });
