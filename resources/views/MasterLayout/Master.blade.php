@@ -55,6 +55,11 @@
                     {{ request()->is('sales') ? 'bg-gray-300' : 'hover:bg-gray-300' }}">
                     Sales
                 </a>
+                <a href="/quotation"
+                    class="block px-4 py-2 rounded-lg transition text-gray-800 font-medium
+                    {{ request()->is('quotation') ? 'bg-gray-300' : 'hover:bg-gray-300' }}">
+                    Quotation
+                </a>
                 <a href="/employe"
                     class="block px-4 py-2 rounded-lg transition text-gray-800 font-medium
                     {{ request()->is('employe') ? 'bg-gray-300' : 'hover:bg-gray-300' }}">
